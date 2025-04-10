@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #000;
+}
+
+main{
+    width: 402px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saytbar{
+    width: 300px;
+    padding: 0 8px;
+    border: 3px solid ;
+    height: 100vh;
+    border-right: 1px solid white;
+}
+
+.saytbar .logo h1{
+    color: #fff;
+    font-size: 54px;
+    margin-bottom: 20px;
+}
+
+.saytbar ul{
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+
+.saytbar ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.saytbar ul li i{
+    width: 26px;
+    height: 26px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li a{
+    color: #E7E9EA;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.saytbar .post{
+    display: inline-block;
+    width: 200px;
+    padding: 14px 20px;
+    font-size: 24px;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.saytbar .user{
+    width: 270px;
+    padding: 14px 20px;
+    background: white;
+    border-radius: 30px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.user .i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.user .box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user .box h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.user .box p{
+    font-size: 16px;   
+    font-family: initial;
+}
+
+.user .dots{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.user .dots i{
+    width: 5px;
+    height: 5px;
+    background: #000;
+    border-radius: 50%;
+}

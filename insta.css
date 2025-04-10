@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    font-family: cursive;
+}
+
+.yon {
+    width: 500px;
+    height: 100vh;
+
+    display: flex;
+    
+    
+}
+
+.doira {
+    width: -10000px;
+    height: 150px;
+
+    gap: 40px;
+    display: flex;
+    padding: 3px;
+
+}
+
+.aylana {
+    margin-left: 40px;
+    margin-top: 20px;
+    background: url(./photo_2025-02-27_22-30-39.jpg) no-repeat center/cover;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 50px;
+
+
+}
+
+.aylana p {
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    margin-left: -10px;
+    font-size: 20px;
+
+}
+
+.miki {
+    font-size: 50px;
+    margin-top: 60px;
+    padding: 0 30px;
+    display: flex;
+    
+}
+
+.miki h3 {
+    font-size: 30px;
+    
+    
+    
+}
+
+.aylana:nth-child(2) {
+    background: url(./photo_2025-02-06_16-01-39.jpg) no-repeat center/cover;
+}
+
+.aylana:nth-child(3) {
+    background: url(./photo_2025-02-17_18-10-37.jpg) no-repeat center/cover;
+}
+
+.aylana:nth-child(4) {
+    background: url(./photo_2025-02-27_14-01-22.jpg) no-repeat center/cover;
+}
+
+.aylana:nth-child(5) {
+    background: url(./photo_2025-02-27_17-43-36.jpg) no-repeat center/cover;
+}
+
+.aylana:nth-child(6) {
+    background: url(./photo_2025-02-27_17-43-39.jpg) no-repeat center/cover;
+}
+
+.aylana:nth-child(7) {
+    background: url(./photo_2025-02-27_17-43-43.jpg) no-repeat center/cover;
+}
+
+.aylana:nth-child(8) {
+    background: url(./photo_2025-02-27_17-43-47.jpg) no-repeat center/cover;
+}
+
+.aylana:nth-child(9) {
+    background: url(.//photo_2025-02-27_17-44-09.jpg) no-repeat center/cover;
+}
+
+.aylana:nth-child(10) {
+    background: url(/photo_2025-02-27_22-30-39.jpg) no-repeat center/cover;
+}
+
+.aylana:nth-child(11) {
+    background: url(./photo_2_2025-02-27_17-44-17.jpg) no-repeat center/cover;
+}
+
+.aylana:nth-child(12) {
+    background: url(./photo_3_2025-02-27_17-44-17.jpg) no-repeat center/cover;
+}
+
+
+body {
+    background: #000;
+}
+
+main {
+    width: 402px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saytbar {
+    width: 300px;
+    padding: 0 8px;
+    border: 3px solid;
+    height: 100vh;
+    border-right: 1px solid white;
+}
+
+.saytbar .logo h1 {
+    color: #fff;
+    font-size: 54px;
+    margin-bottom: 20px;
+ 
+}
+
+.saytbar ul {
+    padding: 30px;
+    height: 68%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+
+.saytbar ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.saytbar ul li i {
+    margin-top: 21px;
+    width: 26px;
+    height: 26px;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li a {
+    color: #E7E9EA;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* .saytbar .post{
+    display: inline-block;
+    width: 200px;
+    padding: 14px 20px;
+    font-size: 24px;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.saytbar .user{
+    width: 270px;
+    padding: 14px 20px;
+    background: white;
+    border-radius: 30px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+} */
+
+
+
+
+
+
+
+/* .user .box p{
+    font-size: 16px;   
+    font-family: initial;
+}
+
+.user .dots{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    
+}
+
+.user .dots i{
+    width: 5px;
+    height: 5px;
+    background: #000;
+    border-radius: 50%;
+} */
+.yanboshi {
+    width: 1000px;
+    height: 1000px;
+
+
+    
+}
+
+.aylana1 {
+    margin-left: 40px;
+    margin-top: 20px;
+    background: url(./photo_2025-02-27_22-30-39.jpg) no-repeat center/cover;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aylana1 p {
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    margin-left: -10px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 1px;
+    display: flex;
+    text-align: center;
+
+}
+.yonboshitagi{
+    background: url(./photo_5_2025-02-27_17-44-17.jpg) no-repeat center/cover;
+    margin-top: 60px;
+    width: 70px;
+    height: 70px;
+  
+    border-radius: 50%;
+
+}
+.yonboshitagi p{
+
+color: white;
+margin-top: 9px;
+margin-left: 100px;
+font-size: 30px;
+
+
+}
+.yonboshitagi a{
+    text-decoration: none;
+    margin-left: 250px;
+    font-size: 35px;
+    color: blue;
+    
+    }
+    .yonboshitagi:nth-child(3){
+        background: url(./photo_4_2025-02-27_17-44-17.jpg) no-repeat center/cover;
+    }
+    .yonboshitagi:nth-child(4){
+        background: url(.//photo_2025-02-27_17-43-36.jpg) no-repeat center/cover;
+    }
+    .yonboshitagi:nth-child(5){
+        background: url(./photo_2025-02-27_17-43-47.jpg) no-repeat center/cover;
+    }
+    .yonboshitagi:nth-child(6){
+        background: url(./photo_2025-02-17_18-10-37.jpg) no-repeat center/cover;
+    }
+
+    .asosiy{
+     
+        background: url(./photo_3_2025-02-27_17-44-17.jpg) no-repeat center/cover;
+        background: url(./photo_3_2025-02-27_17-44-17.jpg) no-repeat center/cover;
+    width: 400%;
+    height: 90%;
+ 
+    margin-left: 500px;
+margin-top: -720px;
+border-radius: 20px;
+
+    }
+    .asosiy ul  {
+       margin-left: 1050px;
+       margin-top: -70px;
+   
+    }
+    .aylana9{
+        margin-left: -55px;
+        margin-top: -750px;
+        
+
+    background: url(./photo_5_2025-02-27_17-44-17.jpg) no-repeat center/cover;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50px;
+ 
+    }
+    .aylana9 p{
+        color: white;
+       
+    }
+
+    
+
+
